@@ -44,7 +44,7 @@ function Header({ language, setLanguage }) {
         />
       </section>
 
-      <p>Elielson Nascimento</p>
+      <h4>Elielson Nascimento</h4>
 
       <section>
         <nav>

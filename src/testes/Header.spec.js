@@ -1,13 +1,15 @@
-import { fireEvent, render, screen } from '@testing-library/react';
-import Header from './App';
+import { fireEvent, render, screen, within } from '@testing-library/react';
+import Header from '../App';
 
-// eslint-disable-next-line no-undef
-describe('Testando o portifolio:', () => {
-  // eslint-disable-next-line no-undef
-  it('Existe meu nome `Elielson Nascimento` na página.', () => {
+describe('Testando o componente Header:', () => {
+  it('Existe `Elielson Nascimento` no Header da página.', () => {
     render(<Header />);
   
-    const myName = screen.getByText(/elielson nascimento/i)
+    const banner = screen.getByRole('banner');
+
+    const myName = within(banner).getByRole('heading', {
+      name: /elielson nascimento/i
+    });
   
     expect(myName).toBeInTheDocument();
   });
