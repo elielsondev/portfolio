@@ -5,7 +5,11 @@ const data = [
     about: 'Sobre',
     skills: 'Habilidades',
     projects: 'Projetos',
-    contact: 'Contato'
+    contact: 'Contato',
+    welcome: 'Bem Vindo(a), eu sou',
+    name: 'Elielson Nascimento',
+    profession: 'Desenvolvedor Front-End',
+    profilePicture: ''
   },
   {
     language: 'English',
@@ -13,7 +17,11 @@ const data = [
     about: 'About',
     skills: 'Skills',
     projects: 'Projects',
-    contact: 'Contact'
+    contact: 'Contact',
+    welcome: 'Welcome, I`m',
+    name: 'Elielson Nascimento',
+    profession: 'Front End Developer',
+    profilePicture: ''
   },
   {
     language: 'Español',
@@ -21,7 +29,11 @@ const data = [
     about: 'Sobre',
     skills: 'Habilidades',
     projects: 'Proyectos',
-    contact: 'Contacto'
+    contact: 'Contacto',
+    welcome: 'Bienvenido, soy',
+    name: 'Elielson Nascimento',
+    profession: 'Desarrollador front-end',
+    profilePicture: ''
   }
 ];
 

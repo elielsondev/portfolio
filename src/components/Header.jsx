@@ -2,6 +2,8 @@ import React from 'react';
 import data from '../API';
 import PropTypes from 'prop-types';
 
+import '../App.css';
+
 function Header({ language, setLanguage }) {
 
   const portuguese = () => {
@@ -17,7 +19,7 @@ function Header({ language, setLanguage }) {
   };
   
   return (
-    <header>
+    <header className='Header'>
       <section>
         <img
           src={data[0].flag}
@@ -43,7 +45,7 @@ function Header({ language, setLanguage }) {
       </section>
 
       <p>Elielson Nascimento</p>
-      
+
       <section>
         <nav>
           <a href="a">
