@@ -1,9 +1,16 @@
+import { useState } from 'react';
+import Header from './components/Header';
+
 import './App.css';
 
 function App() {
+  const [ changeLanguage, setChangeLanguage ] = useState(0)
   return (
     <main className="App">
-      <h1>Hello Recruiter</h1>
+      <Header
+        language={ changeLanguage }
+        setLanguage={ setChangeLanguage }
+      />
     </main>
   );
 }
