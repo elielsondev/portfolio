@@ -64,7 +64,7 @@ function Header({ language, setLanguage }) {
       </section>
     </header>
   )
-}
+};
 
 Header.propTypes = {
   language: PropTypes.number.isRequired,

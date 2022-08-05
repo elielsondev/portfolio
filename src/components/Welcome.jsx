@@ -27,7 +27,7 @@ function Welcome({ language }) {
       </div>
     </section>
   )
-}
+};
 
 Welcome.propTypes = {
   language: PropTypes.number.isRequired
